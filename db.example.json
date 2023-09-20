@@ -1,0 +1,53 @@
+{
+	"heroes": [
+		{
+			"id": 1,
+			"name": "Ghorab",
+			"likes": 15
+		},
+		{
+			"id": 2,
+			"name": "NiceMan",
+			"likes": 5
+		},
+		{
+			"id": 3,
+			"name": "Dr De7k",
+			"likes": 8		},
+		{
+			"id": 4,
+			"name": "300 IQ",
+			"likes": 12
+		},
+		{
+			"id": 5,
+			"name": "Dienamite",
+			"likes": 2
+		},
+		{
+			"id": 6,
+			"name": "Batalawy",
+			"likes": 3
+		},
+		{
+			"id": 7,
+			"name": "Mr Mister",
+			"likes": 11
+		},
+		{
+			"id": 8,
+			"name": "Zawba3a",
+			"likes": 8
+		},
+		{
+			"id": 9,
+			"name": "Karamella",
+			"likes": 9
+		},
+		{
+			"id": 10,
+			"name": "X",
+			"likes": 10
+		}
+	]
+}
