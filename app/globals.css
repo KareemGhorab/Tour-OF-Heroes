@@ -2,4 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
+input {
+	@apply border w-full p-2 border-gray-950 text-xl rounded;
+}

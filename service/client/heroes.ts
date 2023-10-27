@@ -1,5 +1,3 @@
-import { Hero } from '@/types/hero'
-
 const baseUrl = 'http://localhost:3001'
 
 export const updateHero = async (id: number, hero: any) => {
@@ -7,5 +5,10 @@ export const updateHero = async (id: number, hero: any) => {
 		method: 'PATCH',
 		body: JSON.stringify(hero),
 	})
+	return res.json()
+}
+
+export const getHeroByName = async (name: string) => {
+	const res = await fetch(`${baseUrl}/heroes?name=${name}`)
 	return res.json()
 }
